@@ -1,0 +1,18 @@
+[user]
+	name = Amy Lin
+	email = linamy85@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[alias]
+  br = branch
+  co = checkout
+  ci = commit
+  st = status
+  df = diff
+  last = log -1 HEAD
+  amend = commit --amend
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset \
+    %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  ad = add .
