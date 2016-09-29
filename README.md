@@ -1,4 +1,4 @@
-# My __ configurations
+# My chill configurations
 
 ## Include
 1. vim
@@ -7,10 +7,14 @@
 
 ## Usage
 1. get Vundle plugin
-2. ```
+2. Install YouCompleteMe by following commands:
+
+```
    cd ~/.vim/bundle/YouCompleteMe
    ./install.py --clang-completer
-   ```   
-3. If powerline does not look great, then:
-  - get powerline font and set into terminal profile
-  - if using tmux: set TERM=xterm-color256
+```   
+
+## Notes
+If powerline does not look great, then:
+> 1. get powerline font and set into terminal profile
+> 2. if using tmux: set TERM=xterm-color256
