@@ -156,7 +156,6 @@ let g:ycm_confirm_extra_conf=1
 noremap <F5> :YcmForceCompileAndDiagnostics<CR>
 inoremap <F5> <ESC>:YcmForceCompileAndDiagnostics<CR>
 autocmd! BufWritePost * silent YcmForceCompileAndDiagnostics
-let g:ycm_python_binary_path = '/home/c2251393/anaconda3/bin/python3'
 let g:ycm_global_ycm_extra_conf='~/ycm_extra_conf.py'
 if getcwd() =~ "linux"
     let g:ycm_global_ycm_extra_conf='~/ycm_extra_conf_kernel.py'
@@ -182,55 +181,6 @@ let g:syntastic_mode_map = { 'mode': 'active',
                            \ 'passive_filetypes': ['cpp', 'c'] }
 
 "}}}
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Haskell Mode( Abandoned ) {{{
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-"filetype plugin on
-"au BufEnter *.hs compiler ghc
-"let g:haddock_browser="/usr/bin/google-chrome"
-
-"}}}
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Key mappings {{{
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-map <F4> :UndotreeToggle<CR>
-map! <F4> :UndotreeToggle<CR>
-imap <F4> <ESC>:UndotreeToggle<CR>
-vmap <F4> <ESC>:UndotreeToggle<CR>
-
-map  <F5> :call DefineCode()<CR>
-map! <F5> :call DefineCode()<CR>
-imap  <F5> <ESC>:call DefineCode()<CR>
-vmap <F5> <ESC>:call DefineCode()<CR>
-
-map <F6> :NERDTreeToggle<CR>
-map! <F6> :NERDTreeToggle<CR>
-imap <F6> <ESC>:NERDTreeToggle<CR>
-vmap <F6> <ESC>:NERDTreeToggle<CR>
-
-map  <F7> :TagbarToggle<CR>
-map! <F7> :TagbarToggle<CR>
-imap <F7> <ESC>:TagbarToggle<CR>
-vmap <F7> <ESC>:TagbarToggle<CR>
- 
-map  <F8> :call Compile()<CR>
-map! <F8> :call Compile()<CR>
-imap <F8> <ESC>:call Compile()<CR>
-vmap <F8> <ESC>:call Compile()<CR>
-
-
-map  <C-Left> :tabp<CR>
-map! <C-Left> :tabp<CR>
-imap <C-Left> <ESC>:tabp<CR>
-vmap <C-Left> <ESC>:tabp<CR>
-
-map  <C-Right> :tabn<CR>
-map! <C-Right> :tabn<CR>
-imap <C-Right> <ESC>:tabn<CR>
 vmap <C-Right> <ESC>:tabn<CR>
 
 "}}}
