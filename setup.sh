@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf .git/
+
 cp -r .* ~
 
 # install vim plugins
