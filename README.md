@@ -6,7 +6,7 @@
 3. tmux
 
 ## Usage
-1. get Vundle plugin
+1. Get Vundle plugin
 2. Install YouCompleteMe by following commands:
 
 ```
