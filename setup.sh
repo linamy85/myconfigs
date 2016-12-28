@@ -2,7 +2,9 @@
 
 rm -rf .git/
 
-cp -r .* ~
+cd ..
+
+mv -r myconfigs/.* ~
 
 # install vim plugins
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
