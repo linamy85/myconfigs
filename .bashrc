@@ -125,4 +125,5 @@ export NVM_DIR="$HOME/.nvm"
 alias kernel2='source ~/py2_kernel/bin/activate'
 alias kernel3='source ~/py3_kernel/bin/activate'
 
-export PATH="/home/amy/depot_tools:$PATH"
+set TERM=xterm-color256
+
