@@ -129,3 +129,11 @@ alias kernel3='source ~/py3_kernel/bin/activate'
 
 set TERM=xterm-color256
 
+### Git alias
+alias gcl='git clone'
+alias ga='git add'
+alias grm='git rm'
+alias gst='git status'
+alias gl='git pull'
+alias gp='git push'
+alias gd='git diff'
