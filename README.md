@@ -19,6 +19,9 @@
 ### Powerline font issue
 If powerline does not look great, then:
 > 1. get powerline font and set into terminal profile
+   ```
+   sudo apt-get install fonts-powerline
+   ```
 > 2. if using tmux: set TERM=xterm-color256
 
 ### YouCompleteMe vim version dependency
